@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png";
 function Header() {
     return (
         <div className='container ashraf'>
-            <img src={logo} alt="" />
+            <img className='logo' src={logo} alt="" />
             <ul>
                 <li><a className='a' href="">HOME</a></li>
                 <li><a className='a' href="">ABOUT US</a></li>
